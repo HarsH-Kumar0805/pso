@@ -1,0 +1,60 @@
+2026-04-23 17:39:03,958 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2026-04-23 17:39:03,958 | INFO | [33mPress CTRL+C to quit[0m
+2026-04-23 17:40:30,700 | INFO | 127.0.0.1 - - [23/Apr/2026 17:40:30] "GET / HTTP/1.1" 200 -
+2026-04-23 17:40:30,811 | INFO | 127.0.0.1 - - [23/Apr/2026 17:40:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-23 17:40:48,622 | INFO | HTTP Request: GET https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/user "HTTP/2 403 Forbidden"
+2026-04-23 17:40:48,624 | WARNING | UNAUTHORIZED_ENCRYPT | ip=127.0.0.1
+2026-04-23 17:40:48,624 | INFO | 127.0.0.1 - - [23/Apr/2026 17:40:48] "[31m[1mPOST /api/encrypt HTTP/1.1[0m" 401 -
+2026-04-23 22:22:55,272 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2026-04-23 22:22:55,272 | INFO | [33mPress CTRL+C to quit[0m
+2026-04-23 22:24:40,855 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2026-04-23 22:24:40,855 | INFO | [33mPress CTRL+C to quit[0m
+2026-04-23 22:29:03,625 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-23 22:29:03,626 | INFO | [33mPress CTRL+C to quit[0m
+2026-04-23 22:29:03,638 | INFO |  * Restarting with watchdog (windowsapi)
+2026-04-23 22:29:05,201 | WARNING |  * Debugger is active!
+2026-04-23 22:29:05,203 | INFO |  * Debugger PIN: 136-622-487
+2026-04-23 22:29:17,352 | INFO | 127.0.0.1 - - [23/Apr/2026 22:29:17] "GET / HTTP/1.1" 200 -
+2026-04-23 22:29:49,206 | INFO | SIGNUP_ATTEMPT | email=har***
+2026-04-23 22:29:50,077 | INFO | HTTP Request: POST https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/signup "HTTP/2 422 Unprocessable Entity"
+2026-04-23 22:29:50,079 | WARNING | SIGNUP_FAILED | reason=User already registered
+2026-04-23 22:29:50,080 | INFO | 127.0.0.1 - - [23/Apr/2026 22:29:50] "[31m[1mPOST /api/signup HTTP/1.1[0m" 400 -
+2026-04-23 22:30:18,227 | INFO | LOGIN_ATTEMPT | email=har*** | ip=127.0.0.1
+2026-04-23 22:30:19,373 | INFO | HTTP Request: POST https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2026-04-23 22:30:19,376 | WARNING | LOGIN_FAILED | email=har*** | ip=127.0.0.1
+2026-04-23 22:30:19,377 | INFO | 127.0.0.1 - - [23/Apr/2026 22:30:19] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-04-23 22:30:30,731 | INFO | LOGIN_ATTEMPT | email=har*** | ip=127.0.0.1
+2026-04-23 22:30:31,235 | INFO | HTTP Request: POST https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2026-04-23 22:30:31,236 | WARNING | LOGIN_FAILED | email=har*** | ip=127.0.0.1
+2026-04-23 22:30:31,237 | INFO | 127.0.0.1 - - [23/Apr/2026 22:30:31] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-04-23 22:31:55,639 | INFO | SIGNUP_ATTEMPT | email=sim***
+2026-04-23 22:31:56,429 | INFO | HTTP Request: POST https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/signup "HTTP/2 422 Unprocessable Entity"
+2026-04-23 22:31:56,430 | WARNING | SIGNUP_FAILED | reason=User already registered
+2026-04-23 22:31:56,431 | INFO | 127.0.0.1 - - [23/Apr/2026 22:31:56] "[31m[1mPOST /api/signup HTTP/1.1[0m" 400 -
+2026-04-23 22:33:01,419 | INFO | SIGNUP_ATTEMPT | email=pan***
+2026-04-23 22:33:02,047 | INFO | HTTP Request: POST https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2026-04-23 22:33:02,057 | INFO | SIGNUP_SUCCESS | email=pan***
+2026-04-23 22:33:02,058 | INFO | 127.0.0.1 - - [23/Apr/2026 22:33:02] "POST /api/signup HTTP/1.1" 200 -
+2026-04-23 22:33:36,942 | INFO | LOGIN_ATTEMPT | email=pan*** | ip=127.0.0.1
+2026-04-23 22:33:37,782 | INFO | HTTP Request: POST https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-04-23 22:33:37,785 | INFO | LOGIN_SUCCESS | email=pan***
+2026-04-23 22:33:37,787 | INFO | 127.0.0.1 - - [23/Apr/2026 22:33:37] "POST /api/login HTTP/1.1" 200 -
+2026-04-23 22:34:05,681 | INFO | LOGIN_ATTEMPT | email=pan*** | ip=127.0.0.1
+2026-04-23 22:34:06,472 | INFO | HTTP Request: POST https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+2026-04-23 22:34:06,474 | INFO | LOGIN_SUCCESS | email=pan***
+2026-04-23 22:34:06,474 | INFO | 127.0.0.1 - - [23/Apr/2026 22:34:06] "POST /api/login HTTP/1.1" 200 -
+2026-04-23 22:34:50,410 | INFO | HTTP Request: GET https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-04-23 22:34:50,508 | INFO | IMAGE_ENCRYPTED | size=125942 bytes | hash=c699ace749553759...
+2026-04-23 22:34:50,510 | INFO | 127.0.0.1 - - [23/Apr/2026 22:34:50] "POST /api/encrypt HTTP/1.1" 200 -
+2026-04-23 22:39:21,857 | INFO | HTTP Request: GET https://qixpbcqrgzlqiiyupjlg.supabase.co/auth/v1/user "HTTP/2 200 OK"
+2026-04-23 22:39:21,935 | INFO | IMAGE_DECRYPTED | success=True
+2026-04-23 22:39:21,936 | INFO | 127.0.0.1 - - [23/Apr/2026 22:39:21] "POST /api/decrypt HTTP/1.1" 200 -
+2026-04-23 22:48:02,000 | INFO |  * Detected change in 'C:\\Program Files\\Python313\\Lib\\logging\\__init__.py', reloading
+2026-04-23 22:48:02,115 | INFO |  * Detected change in 'C:\\Program Files\\Python313\\Lib\\string.py', reloading
+2026-04-23 22:48:02,631 | INFO |  * Restarting with watchdog (windowsapi)
+2026-04-23 22:48:04,697 | WARNING |  * Debugger is active!
+2026-04-23 22:48:04,703 | INFO |  * Debugger PIN: 136-622-487
